@@ -1,0 +1,20 @@
+image:
+  file: .gitpod.Dockerfile
+
+github:
+  prebuilds:
+    master: true
+    pullRequests: true
+
+ports:
+  - port: 8080
+  - port: 8443
+
+vscode:
+  extensions:
+    - eamodio.gitlens
+    - dbaeumer.vscode-eslint
+    - bmewburn.vscode-intelephense-client
+    - ms-python.python
+    - stylelint.vscode-stylelint
+    - felixfbecker.php-debug
